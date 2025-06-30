@@ -4,7 +4,7 @@ import React from 'react';
 import { GridType } from '@/types';
 
 interface GridCellProps {
-  type: GridType | 'four-line'; // Allow four-line for English practice
+  type: GridType; // Grid type for this cell
   size: number;
   children?: React.ReactNode;
   className?: string;
